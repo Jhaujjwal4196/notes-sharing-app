@@ -6,8 +6,7 @@
 .container1{
 background-color: lightgray;  
 border-radius: 8px;
-
-
+margin-top: 140px !important;
 }
 h2,h4{padding:10px}
 .mydiv:hover{
@@ -35,8 +34,8 @@ h2,h4{padding:10px}
 
         </div>
 
-        <div class="col-sm-3 text-center mydiv">
-            <div class="container1">
+        <div class="col-sm-3 text-center mydiv .bg-success.bg-gradient">
+            <div class="container1 .bg-success.bg-gradient">
                 <h2 class="text-primary">{{rn}}</h2>
                 <a href="{% url 'rejected_notes' %}"><h4 class="text-dark">Rejected Notes</h4></a>
 
